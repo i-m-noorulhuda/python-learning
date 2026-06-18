@@ -1,0 +1,40 @@
+# ==============================
+# BASIC PRINT STATEMENTS
+# ==============================
+
+print("Hello World")
+print(21)
+print("My Name is Noor.", "I'm 30 years old", "and I want to learn Python.")
+print(24+2)
+print("24+2")
+
+# ==== Variables ==== 
+name = 'Noor' #string
+age = 30
+print(name, age)
+
+# = is an assignment operator which we use to assign the value to the variable. 
+
+print ("My name is:", name)
+
+age =  32
+future_age = age + 1
+f_age = future_age
+print("I'm going to be", f_age, "years old next year.")
+
+
+print(type(name))
+print(type(age))
+print(type(future_age))
+
+# ==== Addition ====
+a = 10
+b = 5
+add = a + b
+print("The sum of a and b is:", add)
+
+# ==== I'm a Single line Comment. ====
+"""
+I'm a Milti line Comment.
+I'm written in the 3 inverter commas.
+"""
