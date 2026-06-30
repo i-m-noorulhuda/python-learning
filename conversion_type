@@ -1,0 +1,23 @@
+# ==== Type Conversion ====
+
+""""
+Type Conversion is a process to convert the value type of any variable. There are 2 types of conversions. 
+- Conversion --> is the automatic process to convert the type of any value. This is what python do on auto based.
+- Casting --> is the process of manually convert the type of any value. Python is not gonna conveert it on auto-based.
+"""
+
+# ==== Conversion ====
+a = 4  #integer value
+b = 10.2  # float value
+print(a + b) # while adding, so python auto convert your 'a + b' in to float because in float, we can store more data.
+
+# ==== Casting ==== 
+x = 2
+y = float("2")
+print(x + y)
+print(type(y))
+
+x = 2
+y = int(2.9033423)
+print(x + y)
+print(type(y))
